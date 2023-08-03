@@ -28,7 +28,7 @@ def show_population_data(country_data):
 
 if __name__ == "__main__":
     # Replace 'your_country_code' with the desired country code (e.g., 'us', 'in', 'gb', etc.)
-    country_code = 'your_country_code'
+    country_code = 'us'
 
     population_data = get_population_data(country_code)
     show_population_data(population_data)
